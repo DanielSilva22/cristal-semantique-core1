@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+#phrase {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
