@@ -6,7 +6,7 @@ services:
     plan: free
     branch: main
     rootDir: api
-    buildCommand: ""
+    buildCommand: ./render-build.sh
     startCommand: gunicorn app:app
     envVars:
       - key: PYTHON_VERSION
