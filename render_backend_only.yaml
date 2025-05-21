@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: cristal-backend
+    env: python
+    repo: https://github.com/DanielSilva22/cristal-semantique-core1
+    plan: free
+    branch: main
+    rootDir: api
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
+    autoDeploy: true
